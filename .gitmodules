@@ -1,0 +1,3 @@
+[submodule "stage-frontend"]
+	path = stage-frontend
+	url = https://github.com/iXtenda/stage-frontend.git
