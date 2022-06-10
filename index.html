@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <div class="main-container">
+        <div id="furioos_container"></div>
+    </div>
+    <div id="ui">
+        <select id="lang" onchange="stagedemo.selectLang(this.value)">
+            <option value="English">English</option>
+            <option value="German">Deutsch</option>
+        </select>
+        <p>
+            You can select a language <b>after</b> the player has started.
+            In a production environment we'll set the language automatically.
+        </p>
+    </div>
+</body>
+<footer>
+    <script src="indexBrowserified.js"></script>
+</footer>
+
+</html>
